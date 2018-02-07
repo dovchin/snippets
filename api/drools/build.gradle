@@ -1,0 +1,10 @@
+plugins {
+    id 'java'
+}
+
+dependencies {
+    compile "org.drools:drools-compiler:${project.droolsVersion}"
+    compile "org.drools:drools-templates:${project.droolsVersion}"
+
+    compile project(':api:spring-boot-base')
+}

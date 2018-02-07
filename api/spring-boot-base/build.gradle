@@ -1,0 +1,9 @@
+plugins {
+    id 'java'
+}
+
+jar.enabled = false
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter:$springBootVersion")
+}

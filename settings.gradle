@@ -1,0 +1,4 @@
+include ':api:spring-boot-base'
+include ':api:drools'
+
+include ':app:drools'

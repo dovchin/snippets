@@ -1,0 +1,25 @@
+project.ext {
+    springBootVersion = '1.4.1.RELEASE'
+    h2DatabaseDriverVersion = '1.4.193'
+    postgresqlDriverVersion = '9.4-1201-jdbc41'
+    droolsVersion = '6.2.0.Final'
+    hibernateValidatorVersion = '5.0.3.Final'
+    commonsVersion = '3.5'
+    commonsIoVersion = '2.5'
+    junitVersion = '4.12'
+    groovyVersion = '2.4.8'
+}
+
+allprojects {
+
+    buildscript {
+        repositories {
+			jcenter()
+		}
+    }
+
+    repositories {
+		jcenter()
+    }
+}
+
